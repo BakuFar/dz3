@@ -74,6 +74,9 @@ moreThanTen(num: Int(num5)!)
 print("Количество четных чисел - \(chetniyCount) \nКоличество нечетных чисел - \(neChetniyCount)\nКоличест8во чисел (> 10) - \(moreThanTenCount)\nКоличество чисел (< 10) - \(lessThanTenCount)")
 
 
+
+
+
 //DZ#calculator
 
 func calculator(num1: Double, sim: String, num2: Double) {
@@ -161,7 +164,7 @@ func pogoda(city: String) {
     }
     else {
         print("Введите город из списка (Бишкек, Чолпон-Ата, Талас, Ош, Жалал-Абад, Нарын или Баткен")
-        var city = readLine()!
+        let city = readLine()!
         pogoda(city: city)
     }
 }
